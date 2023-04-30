@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+h1{
+    align-self: center;
+    font-size: 4vw;
+}
+
+#pic{
+    margin-top: -2vw;
+}
+
+input, label{
+    align-self: center;
+    font-size: x-large;
+}
+
+img{
+    width: 30vw;
+    height: 25vw;
+}
+
+form{
+    align-self: center;
+    margin:-18vw 0 0 10vw;
+}
+
+h2{
+    align-self: center;
+    margin-top: 15vw;
+}
+
+button{
+    width: 10vw;
+    align-self: center;
+    font-size: x-large;
+    background-color: red;
+    border: red;
+    color: white;
+    border-radius: 35% 5% 35% 5%;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
